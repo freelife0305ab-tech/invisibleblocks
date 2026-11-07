@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "invisibleblocks",
+  "version": "${version}",
+  "name": "Invisible Blocks",
+  "description": "Makes all blocks invisible except chests, spawners, ender chests, barrels and shulker boxes. Toggle with /invisibleblocks.",
+  "environment": "client",
+  "entrypoints": { "client": ["com.example.invisibleblocks.InvisibleBlocksMod"] },
+  "mixins": ["invisibleblocks.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

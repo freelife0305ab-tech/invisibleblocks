@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "com.example.invisibleblocks.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["BlockMixin", "BlockStateMixin"],
+  "injectors": { "defaultRequire": 1 }
+}
